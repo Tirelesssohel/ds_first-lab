@@ -92,7 +92,7 @@ void display(){
     }else{
         printf("\nCurrent list is...\n\n");
         while (ptr!=NULL){
-            printf("%d", ptr->data);
+            printf("%d ", ptr->data);
             ptr = ptr->next;
         }
     }
